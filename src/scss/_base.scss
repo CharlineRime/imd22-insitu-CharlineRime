@@ -24,6 +24,12 @@ h2 {
   font-family: "Suisse Intl";
   font-weight: 500;
   font-size: 200px;
+  padding-bottom: 88px;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
   display: flex;
   justify-content: center;
 }
@@ -41,4 +47,5 @@ h1 {
   background: #fff;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
