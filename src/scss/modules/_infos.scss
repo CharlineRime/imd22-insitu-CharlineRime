@@ -1,0 +1,102 @@
+.infos-date {
+  color: #fff;
+  text-align: center;
+  font-family: "Suisse Intl";
+  font-size: 60px;
+  border-radius: 10px;
+  background: #000;
+  padding: 5px 20px;
+}
+.infos-affiche {
+  height: 80%;
+}
+
+.infos-card {
+  width: 644px;
+  height: 1036px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 493px;
+  left: 30%;
+  z-index: 2;
+
+  animation-name: change-infos-1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+.infos-card-second {
+  width: 644px;
+  height: 1036px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 493px;
+  left: 30%;
+  z-index: 3;
+
+  animation-name: change-infos-2;
+  animation-duration: 8s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes change-infos-1 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 100%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes change-infos-2 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 100%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

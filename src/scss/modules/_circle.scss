@@ -1,0 +1,50 @@
+.circle {
+  background: #ff9dd6;
+  height: 540px;
+  width: 540px;
+  border-radius: 600;
+  filter: blur(20);
+
+  animation-name: change-scale-circle;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  position: absolute;
+  top: 493px;
+  z-index: 1;
+  width: 1121px;
+  height: 1121px;
+}
+
+@keyframes change-scale-circle {
+  0% {
+    scale: 100%;
+    background: #ff9dd6;
+  }
+
+  25% {
+    scale: 70%;
+    background: #ff9dd6;
+  }
+
+  50% {
+    scale: 100%;
+    background: #ffb94f;
+  }
+
+  75% {
+    scale: 70%;
+    background: #ffb94f;
+  }
+
+  100% {
+    scale: 100%;
+    background: #ff9dd6;
+  }
+}
+
+.circle-transition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
