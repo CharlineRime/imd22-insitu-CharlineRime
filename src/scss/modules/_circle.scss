@@ -1,7 +1,7 @@
 .circle {
   background: #ff9dd6;
-  height: 540px;
-  width: 540px;
+  width: 1121px;
+  height: 1121px;
   border-radius: 600;
   filter: blur(20);
 
@@ -12,8 +12,6 @@
   position: absolute;
   top: 493px;
   z-index: 1;
-  width: 1121px;
-  height: 1121px;
 }
 
 @keyframes change-scale-circle {
