@@ -1,28 +1,10 @@
 .touch {
   position: absolute;
   top: 1623px;
-  animation-name: change-scale-touch;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
   z-index: 3;
   margin-top: 30px;
 }
 
 .touch-img {
   max-height: 142px;
-}
-
-@keyframes change-scale-touch {
-  0% {
-    scale: 100%;
-  }
-
-  50% {
-    scale: 70%;
-  }
-
-  100% {
-    scale: 100%;
-  }
 }
